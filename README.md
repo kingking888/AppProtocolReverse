@@ -7,8 +7,10 @@
 ## Steps
 
     1. frida启动脚本。
+    
         frida -U -l protocol_hook.js -f libcms.so --no-pause
+        
     2. 启动app点击发送请求，查看响应日志。
    
-    3. 还原算法，测试代码在AppProtocolReverse\RegressionAlgorithm\script下。
+    3. 还原算法的测试代码在AppProtocolReverse\RegressionAlgorithm\script下。
 
